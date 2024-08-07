@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="task2.css">
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <img src="profile-picture.jpg" alt="Profile Picture">
+    </header>
+    <main>
+        <section>
+            <h2>About Me</h2>
+            <p>I am a Student at Sumathi Reddy Engineering college pursuing btech 3rd year in Computer Science and Engineering(AIML). I am glad to know about this internship, I am excited to learn new things.</p>
+        </section>
+        <section>
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>RECIPE GENERATOR</h3>
+                <img src="project-image.jpg" alt="Project Image">
+                <p>This recipe search allows you to find recipes based on the major item you have with you. This helps your cooking process easier. </p>
+                <a href="https://rashifa123.ccbp.tech/" target="_blank">View Project</a>
+            </div>
+            </section>
+        <section>
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                </ul>
+        </section>
+        <section>
+            <h2>Contact</h2>
+            <ul>
+                <li><a href="mailto:rashifanureen@gmail.com">rashifanureen@gmail.com</a></li>
+                <li><a href="https://www.linkedin.com/in/rashifa-nureen-shaik-5b759a2a6/">LinkedIn</a></li>
+                <li><a href="https://github.com/rashifanureen">GitHub</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Rashifa Nureen Shaik</p>
+    </footer>
+</body>
+</html>
+<style>
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+header img {
+    width: 250px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #333;
+    margin-top: 0;
+    font-size: 2rem;
+}
+
+.project {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.project img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 1.5rem;
+}
+</style>
